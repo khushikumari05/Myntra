@@ -6,6 +6,7 @@ const cors = require("cors");
 const cookieParser = require("cookie-parser");
 // var morgan = require("morgan");
 const helmet = require("helmet");
+const userRouter = require("./routes/user.route");
 
 
 const app = express();
@@ -26,6 +27,8 @@ app.use(helmet({
 app.get("/", (req,res) => {
     res.send('hello world!');
 }); 
+
+app.use('/api/user', userRouter);
 
 app.listen(PORT,async()=>{
     try{
