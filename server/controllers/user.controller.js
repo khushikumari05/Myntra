@@ -4,6 +4,8 @@ const bcrypt = require("bcrypt");
 const verifyEmailTemplate = require("../utils/verifyEmailTemplate");
 const generatedAccessToken = require("../utils/generatedAccessToken");
 const generatedRefreshToken = require("../utils/generatedRefreshToken");
+const uploadImageCloudinary = require("../utils/uploadImageCloudinary");
+
 
 
 const userRegistration = async (req, res) => {
