@@ -2,6 +2,8 @@
 import './App.css'
 import Banner from './components/Banner'
 import CatgoriesSlider from './components/CatgoriesSlider'
+import CatgoriesSlider2 from './components/CatgoriesSlider2'
+import Footer from './components/Footer'
 import Header from './components/header'
 // import Login from './components/login'
 
@@ -13,6 +15,8 @@ function App() {
     {/* <Login /> */}
     <Banner />
     <CatgoriesSlider />
+    < CatgoriesSlider2/>
+    <Footer />
     </>
   )
 }

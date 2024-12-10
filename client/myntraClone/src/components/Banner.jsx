@@ -61,7 +61,7 @@ const Banner = () => {
           </div>
         </div>
 
-        <div className="px-8 md:px-16 lg:px-24">
+        <div className="px-8 md:px-16 lg:px-24 mb-[20px]">
         {/* Banner Section */}
         <div>
           <img src={pic8} alt="pic8" className="w-full" />
